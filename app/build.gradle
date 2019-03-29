@@ -29,8 +29,6 @@ dependencies {
 
     implementation 'io.reactivex.rxjava2:rxkotlin:2.3.0'
 
-    implementation project(':autodisposable')
-
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 
 }
