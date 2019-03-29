@@ -1,1 +1,1 @@
-# Autodisposable
+# Lifecycle aware components
