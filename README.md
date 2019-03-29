@@ -1,6 +1,6 @@
 # AutoDisposable
 
-AutoDisposable is a lightweight library helping to clear Disposables automatically. It's greate to use along with RxBindings.
+AutoDisposable is a lightweight library helping to clear Disposables automatically.
 
 ``` kotlin
 
@@ -26,6 +26,12 @@ class MainActivity : AppCompatActivity() {
             .subscribe { Log.d(TAG, "Next value: $it") }
             .disposeOnDestroy(autoDisposable)
     }
+```
+
+It's greate to use along with RxBindings.
+
+``` kotlin
+
 ```
 
 [ ![Download](https://api.bintray.com/packages/olegsheliakin/maven/autodisposable/images/download.svg) ](https://bintray.com/olegsheliakin/maven/autodisposable/_latestVersion)
