@@ -31,7 +31,9 @@ class MainActivity : AppCompatActivity() {
 It's greate to use along with RxBindings.
 
 ``` kotlin
-
+ RxView.click(button)
+            .subscribe { Log.d(TAG, "Next value: $it") }
+            .disposeOnDestroy(autoDisposable)
 ```
 
 [ ![Download](https://api.bintray.com/packages/olegsheliakin/maven/autodisposable/images/download.svg) ](https://bintray.com/olegsheliakin/maven/autodisposable/_latestVersion)
