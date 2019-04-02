@@ -1,5 +1,7 @@
 # AutoDisposable
 
+[ ![Download](https://api.bintray.com/packages/olegsheliakin/maven/autodisposable/images/download.svg) ](https://bintray.com/olegsheliakin/maven/autodisposable/_latestVersion)
+
 AutoDisposable is a lightweight library helping to clear Disposables automatically.
 
 ``` kotlin
@@ -35,9 +37,6 @@ It's greate to use along with RxBindings.
             .subscribe { Log.d(TAG, "Next value: $it") }
             .disposeOnDestroy(autoDisposable)
 ```
-
-[ ![Download](https://api.bintray.com/packages/olegsheliakin/maven/autodisposable/images/download.svg) ](https://bintray.com/olegsheliakin/maven/autodisposable/_latestVersion)
-
 
 # License
 ```
